@@ -76,7 +76,3 @@ Everything is in a single file, [`server.py`](server.py): a `ThreadingHTTPServer
 exposing a small JSON API (`/api/memories`, `/api/memory`) and serving the UI, which
 is one embedded HTML document with no external assets. `pyproject.toml` wires it up as
 the `claude-memory-viewer` console script for `uv run`.
-
-## License
-
-MIT — see [LICENSE](LICENSE).
